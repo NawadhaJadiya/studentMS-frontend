@@ -1,7 +1,5 @@
 import axios from "axios";
-import dotenv from "dotenv";
 
-dotenv.config();
 
 const api = axios.create({
   baseURL: 'https://studentms-backend-7m5l.onrender.com/',
